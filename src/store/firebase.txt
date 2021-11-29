@@ -1,0 +1,17 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyCLlrzK5LR5iTD15CfnEcitS9l-ZZkgIR0",
+  authDomain: "smackchat-e0cab.firebaseapp.com",
+  projectId: "smackchat-e0cab",
+  storageBucket: "smackchat-e0cab.appspot.com",
+  messagingSenderId: "520477638823",
+  appId: "1:520477638823:web:03a3c68cb5eb7cd8f7db82"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
