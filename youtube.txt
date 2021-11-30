@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=Kfg789g_UTg
+
+
+run with quasar dev
+
+<q-chat-message
+      v-for ="message in messages"
+      :key="message.id"
+      :name="message.from"
+      :text= "message.text"
+       sent />
