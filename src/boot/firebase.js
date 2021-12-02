@@ -17,12 +17,15 @@ const firebaseConfig = {
   projectId: "smackchat-e0cab",
   storageBucket: "smackchat-e0cab.appspot.com",
   messagingSenderId: "520477638823",
-  appId: "1:520477638823:web:03a3c68cb5eb7cd8f7db82"
+  appId: "1:520477638823:web:03a3c68cb5eb7cd8f7db82",
+  databaseURL: "https://smackchat-e0cab-default-rtdb.asia-southeast1.firebasedatabase.app"
 };
+
+
 
 // Initialize Firebase
 let firebaseApp = firebase.initializeApp(firebaseConfig);
-let firebaseAuth = firebaseApp.auth()
-let firebaseDb = firebaseApp.database()
+let firebaseAuth = firebaseApp.auth();
+let firebaseDb = firebaseApp.database();
 
 export { firebaseAuth, firebaseDb }

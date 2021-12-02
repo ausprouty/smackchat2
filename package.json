@@ -23,7 +23,9 @@
     "eslint": "^7.14.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-vue": "^7.0.0",
-    "eslint-webpack-plugin": "^2.4.0"
+    "eslint-webpack-plugin": "^2.4.0",
+    "stylus": "^0.55.0",
+    "stylus-loader": "^6.2.0"
   },
   "browserslist": [
     "last 10 Chrome versions",
