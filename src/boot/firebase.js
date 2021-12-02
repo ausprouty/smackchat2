@@ -1,9 +1,14 @@
-// Firebase App (the core Firebase SDK) is always required and must be listed first
-import * as firebase from "firebase/app";
+//https://firebase.google.com/docs/reference/js/auth
+
+//import * as firebase from "firebase/app";
 
 // Add the Firebase products that you want to use
-import "firebase/auth";
-import "firebase/database";
+//import "firebase/auth";
+//import "firebase/database";
+
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/database';
 
 
 const firebaseConfig = {
@@ -14,6 +19,7 @@ const firebaseConfig = {
   messagingSenderId: "520477638823",
   appId: "1:520477638823:web:03a3c68cb5eb7cd8f7db82"
 };
+
 // Initialize Firebase
 let firebaseApp = firebase.initializeApp(firebaseConfig);
 let firebaseAuth = firebaseApp.auth()
